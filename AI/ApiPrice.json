@@ -28,6 +28,20 @@
     "output": 0.0
   },
   {
+    "model": "o4-mini",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.1,
+    "output": 4.4
+  },
+  {
+    "model": "o3",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 2,
+    "output": 8
+  },
+  {
     "model": "claude-3-5-sonnet",
     "type": "tokens",
     "channel_type": 14,
