@@ -108,15 +108,22 @@
     "model": "DeepSeek-R1",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.5,
-    "output": 2.15
+    "input": 0.56,
+    "output": 1.68
   },
   {
     "model": "DeepSeek-V3",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.28,
-    "output": 0.88
+    "input": 0.56,
+    "output": 1.68
+  },
+  {
+    "model": "DeepSeek-V3.1",
+    "type": "tokens",
+    "channel_type": 28,
+    "input": 0.56,
+    "output": 1.68
   },
   {
     "model": "Kimi-K2",
