@@ -138,5 +138,12 @@
     "channel_type": 16,
     "input": 0.6,
     "output": 2.2
+  },
+  {
+    "model": "LongCat",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.15,
+    "output": 0.75
   }
 ]
