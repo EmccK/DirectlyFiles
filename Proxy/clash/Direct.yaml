@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,sharedchat.fun
   
   # 域名关键字匹配---------------
   - DOMAIN-KEYWORD,baidu
