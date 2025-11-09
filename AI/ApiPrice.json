@@ -145,5 +145,12 @@
     "channel_type": 20,
     "input": 0.15,
     "output": 0.75
+  },
+  {
+    "model": "MiniMax",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0.3,
+    "output": 1.2
   }
 ]
