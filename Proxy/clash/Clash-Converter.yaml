@@ -121,6 +121,7 @@ proxy-groups:
     proxies:
       - AUTO
       - HK AUTO
+      - TW AUTO
       - SG AUTO
       - JP AUTO
       - US AUTO
@@ -136,6 +137,7 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
+      - TW AUTO
       - SG AUTO
       - JP AUTO
       - US AUTO
@@ -145,6 +147,7 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
+      - TW AUTO
       - HK AUTO
       - SG AUTO
       - JP AUTO
@@ -155,6 +158,7 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
+      - TW AUTO
       - HK AUTO
       - SG AUTO
       - JP AUTO
@@ -210,6 +214,7 @@ proxy-groups:
       - AIGC
       - Telegram
       - Google
+      - TW AUTO
       - HK AUTO
       - SG AUTO
       - JP AUTO
