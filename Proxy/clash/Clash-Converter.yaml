@@ -135,6 +135,7 @@ proxy-groups:
     name: AIGC
     type: select
     proxies:
+      - PROXY
       - SG AUTO
       - JP AUTO
       - US AUTO
@@ -143,6 +144,7 @@ proxy-groups:
     name: Telegram
     type: select
     proxies:
+      - PROXY
       - HK AUTO
       - SG AUTO
       - JP AUTO
@@ -152,6 +154,7 @@ proxy-groups:
     name: Google
     type: select
     proxies:
+      - PROXY
       - HK AUTO
       - SG AUTO
       - JP AUTO
@@ -182,6 +185,13 @@ proxy-groups:
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)美国|USA|US|🇺🇸
+    name: US AUTO
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)台湾|TW|🇨🇳
     name: US AUTO
     type: url-test
     interval: 300
